@@ -33,10 +33,9 @@ namespace EDDemo.Estructuras_No_Lineales
         {            
             if (Nodo == null)
             {
-                Nodo = new NodoBinario();
-                Nodo.Dato = Dato;
-                Nodo.Izq = null;
-                Nodo.Der = null;
+                Nodo = new NodoBinario(Dato);
+                //AQUI CAMBIO (SE SIMPLIFICO EL NODO)
+                
 
                 if (Raiz == null)
                     Raiz = Nodo;
